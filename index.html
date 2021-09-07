@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+                <div class="navbar__brand">
+                <img src="./assets/logo.jpeg" alt="logo" class="logo__image" />
+            </div>
+            
+            <div class="navbar__items">
+                <div class="drp__down">
+                <li class="text-l"> Home </li> 
+            </div> 
+                <div class="drp__down">
+                <li class="text-l"> Offers </li>
+                    <div class="drp__down__con">
+                        <a href="#">30% off on first order</a>
+                        <a href="#">Free delivery on first order</a>
+                </div>
+                </div>
+                <div class="drp__down">
+                <li class="text-l">Contact Us</li>
+                <div class="drp__down__con">
+                    <a href="#">Call us</a>
+                    <a href="#">Chat with us</a>
+                </div>
+            </div>
+            <div class="drp__down">
+                <li class="text-l">Account</li>
+            <div class="drp__down__con">
+                <a href="#">Profile</a>
+                <a href="#">Orders</a>
+                <a href="#">Help</a>
+                <a href="#">Log Out</a>
+            </div>
+        </div>
+        </div>
+        </nav>
+    </header>
+    <main class="container">
+    <section class="sign__up__container">
+        <div class="sign__up__image">
+            
+        <form  class="sign__up__form">
+            <p class="text-f">Login</p>
+            <label for="email" class="inputs"><b>Email</b></label>
+            <input type="email" placeholder="Enter Email" name="email" required>
+            <label for="pwd" class="inputs"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="pwd" required>
+            <button type="submit" class="btn__primary">Login</button>
+            <p style="color:white; font-size: 1rem; text-decoration: underline;" class="no__mem">Not a member? Sign Up</p> 
+        </form>
+        
+    </div>
+    </section>
+    <section class="quote">
+        <div class="text">
+                Our partners provide hygienic food and we guarantee fastest delivery.
+        </div>
+    </section>
+    
+
+    <section class="food__list__container">
+        <h1 class="text-e" >Explore our menu</h1>
+        <div class="food__list__container__box"></div>
+        <div class="food__menu__card__list">
+            <div style="margin-bottom: 1rem;" class="food__menu__card">
+                <img src="./assets/vegthali.jpeg" alt="veg" class="food__menu__card__image"/>
+                <div class="food__menu__card__details">
+                    <h4 class="food__menu__card__title"><strong>Vegetarian</strong></h4>
+                </div>
+            </div>
+            <div style="margin-bottom: 1rem;" class="food__menu__card">
+                <img src="./assets/non.jpg" alt="nonveg" class="food__menu__card__image"/>
+                <div class="food__menu__card__details">
+                    <h4 class="food__menu__card__title"><strong>Non-Vegetarian</strong></h4>
+                </div>
+            </div>
+            <div class="food__menu__card">
+                <img src="./assets/chinese.jpeg" alt="chinese" class="food__menu__card__image"/>
+                <div class="food__menu__card__details">
+                    <h4 class="food__menu__card__title"><strong>Chinese</strong></h4>
+                </div>
+            </div>
+        </div>
+</section>
+
+<section class="stay__container">
+    <div>
+        <h1 class="text-s">Stay in touch with us</h1>
+    <div class="email__inp">
+        <div >
+            <input style="margin: 5px;" type="email" placeholder="Enter Email" class="email__s">
+        </div>
+        <button class="button__s">Submit</button>
+    </div>
+    </div>
+</section>
+</main>
+<footer>
+<img src="./assets/new.png" alt="logo" class="logo" />
+<ul>
+    <li>Follow Us On</li>
+    <li>Instagram</li>
+    <li>Facebook</li>
+    <li>Twitter</li>
+</ul>
+</footer>
+    </body>
+</html>
